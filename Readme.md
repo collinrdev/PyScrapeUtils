@@ -13,6 +13,13 @@ These are my utility scripts for web
 1.  Clone this repo (or download from web)
 2. Download dependencies: Python3, Requests, BeautifulSoup4
 
+## How to Run It
+1.  Save all files in the same folder.
+2.  In terminal, navigate to that folder:
+`cd your_folder/` 
+3.  Run the menu:
+`python menu.py`
+
 
 
 
