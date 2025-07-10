@@ -19,5 +19,7 @@ try:
 
     # Output number of search_string
     print(f"\nThe string '{search_string}' appears {count} times on the page.")
+
+# error handling
 except requests.exceptions.RequestException as e:
     print(f"Error fetching page: {e}")
