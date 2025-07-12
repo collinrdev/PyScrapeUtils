@@ -4,11 +4,11 @@ These are my utility scripts for web
 ## On the way
  - [x] Utility which counts the instances of a specific user inputted string on the page
  - [x] Utility which seeks out any numerical prices in USD (perhaps other currencies in the future)
- - [ ] Utility which seeks out phone numbers
+ - [x] Utility which seeks out phone numbers
  - [x] Utility which seeks out emails
  - [x] CLI Wrapper (terminal interface menu to link all the various scraping utils)
  - [ ] GUI Wrapper (premium)
- - [x] Linkedin Scraper
+ - [ ] Linkedin Scraper
 
 ## Installation
 1.  Clone this repo (or download from web)

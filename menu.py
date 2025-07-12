@@ -1,13 +1,15 @@
 from count_occurrences import count_string_occurrences
 from scrape_prices import scrape_prices_to_csv
-from scrape_emails import scrape_emails_from_url  # <- New import
+from scrape_emails import scrape_emails_from_url 
+from scrape_phones import scrape_phone_numbers
 
 def main_menu():
     while True:
-        print("\n📋 MENU")
+        print("\n MENU")
         print("1. Count a specific string on a web page")
         print("2. Scrape prices and export to CSV")
-        print("3. Scrape emails from a web page")  # <- New option
+        print("3. Scrape emails from a web page")
+        print("4. Scrape phone Numbers from a web page")  # <- New option
         print("0. Exit")
 
         choice = input("Enter your choice: ").strip()
@@ -26,6 +28,8 @@ def main_menu():
                     print(" -", email)
             else:
                 print("❌ No emails found or an error occurred.")
+        elif choice == '4':
+            scrape_phone_numbers()
         elif choice == '0':
             print("Goodbye!")
             break
