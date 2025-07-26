@@ -21,7 +21,8 @@ These are my utility scripts for web
 3.  Run the menu:
 `python menu.py`
 
-
+## Disclaimer
+These scripts are to be used in accordance with the law and TOS. Please do not misue these scripts to harm any websites.
 
 
 > Doccumentation written using [StackEdit](https://stackedit.io/).
